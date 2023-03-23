@@ -1,8 +1,13 @@
 body{
     background-color: yellow;
 }
-p{
-    font-family: Ariel, Arial, Helvetica, sans-serif;
+p {
+    font-family: 'Delicious Handrawn', cursive; 
     font-size: 14px;
     color: orange;
+}
+#Picture1{
+    position: absolute;
+    top: 75px;
+    left: 450px;
 }

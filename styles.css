@@ -1,21 +1,51 @@
 .title {
     width: 200px;
     height: auto;
+    position: absolute;
+    left: 14px;
+}
+
+.title:hover {
+    scale: 1.1;
 }
 
 a:link {
-    color: bisque;
+    color: white;
+    text-decoration: none;
 }
 a:visited {
-    color: #593d12;
+    color: #f2db79;
+    text-decoration: none;
 }
+
+.a-review:link {
+    color: white;
+    text-decoration: none;
+}
+.a-review:visited {
+    color: #f2db79;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 20px;
+    text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+}
+
+a:active { text-decoration: none; }
 
 .ldr {
     width: 270px;
     height: auto;
     position: absolute;
     top: 800px;
-    left: 8px;
+    left: 14px;
+}
+
+.ldr:hover {
+    scale: 1.1;
 }
 
 body {

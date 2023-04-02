@@ -6,6 +6,13 @@
     left: 700px;
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: #f2db79;
+}
+
 body {
     background-image: url("graphics/background.png");
     background-repeat: no-repeat;
@@ -50,10 +57,22 @@ body {
     left: 720px;
     color: #ffffff;
 }
+.h3-10 {
+    position: absolute;
+    top: 300px;
+    left: 665px;
+    color: #ffffff;
+}
 .p-1 {
     position: absolute;
     top: 350px;
     left: 700px;
+    color: #ffffff;
+}
+.p-2 {
+    position: absolute;
+    top: 890px;
+    left: 420px;
     color: #ffffff;
 }
 audio {

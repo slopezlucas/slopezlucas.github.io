@@ -18,20 +18,12 @@ a:visited {
     text-decoration: none;
 }
 
-.a-review:link {
-    color: white;
-    text-decoration: none;
-}
-.a-review:visited {
-    color: #f2db79;
-    text-decoration: none;
-}
 a:hover {
     font-size: 20px;
     text-shadow: -2px 2px 0 #000,
-                          2px 2px 0 #000,
-                         2px -2px 0 #000,
-                        -2px -2px 0 #000;
+                  2px 2px 0 #000,
+                  2px -2px 0 #000,
+                  -2px -2px 0 #000;
 }
 
 a:active { text-decoration: none; }
